@@ -1,0 +1,10 @@
+nombre = str(input("digite su nombre: "))
+resultado1 = float(input("insierte el ressultado final :"))
+resultado2 = float(input("insierte el resultado de evalucacion : "))
+resultado3 = float(input("insierte el promedio de los resultados : "))
+
+prom1 = resultado1 * 0,6
+prom2 = resultado2 * 0,3
+prom3 = resultado3 * 0,7
+total = prom1 + prom2 + prom3
+print("el resultado final de", nombre, "es de total",total)
