@@ -1,4 +1,4 @@
-a=7
-b=8
+a=int(input("digite el valor para a:  "))
+b=int(input("digite el valor para b: "))
 suma=a+b
-print("la suma es:",suma)
+print("la suma es: ",suma)
